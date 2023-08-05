@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --bx1-br-color: #E84545;
+    --bx2-br-color: #45D3D3;
+    --bx3-br-color: #549EF2;
+    --bx4-br-color: #FCAF4A;
+    --p-color: #CDCDCD;
+    --h1-color: #A3A5AE;
+    --h2-color: #4C4E61;
+    --bx-color: #ffffff;
+    --font: 'Poppins', sans-serif;
+    ;
+
+}
+
+main {
+    min-height: 100vh;
+
+}
+
+
+
+.text {
+    text-align: center;
+    padding: 3rem;
+}
+
+.text h3 {
+    font-size: 2rem;
+    font-family: var(--font);
+    font-weight: 200;
+    color: var(--h1-color);
+}
+
+.text h2 {
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 2.6rem;
+    color: var(--h2-color);
+}
+
+.text p {
+    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--p-color);
+}
+
+
+.team {
+
+    display: grid;
+    justify-content: center;
+}
+
+#team-builder {
+    width: 265px;
+    height: 200px;
+    background-color: var(--bx-color);
+    box-shadow: 0 2px 10px 0 var(--h1-color);
+    border-radius: 5px;
+    border-top: 5px solid var(--bx1-br-color);
+    padding: 1.5rem;
+}
+
+#team-builder h5 {
+    font-size: 1.1rem;
+    font-family: var(--font);
+    color: var(--h2-color);
+}
+
+#team-builder p {
+    margin-top: .8rem;
+    font-family: var(--font);
+    color: var(--h1-color);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+
+#team-builder img {
+    width: 70px;
+    height: 70px;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+.box {
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 26rem;
+    margin-top: -7rem;
+  
+}
+
+#supervisior {
+    width: 265px;
+    height: 200px;
+    background-color: var(--bx-color);
+    box-shadow: 0 2px 10px 0 var(--h1-color);
+    border-radius: 5px;
+    border-top: 5px solid var(--bx2-br-color);
+    padding: 1.5rem;
+}
+
+
+#supervisior h5 {
+    font-size: 1.1rem;
+    font-family: var(--font);
+    color: var(--h2-color);
+}
+
+#supervisior p {
+    margin-top: .7rem;
+    font-family: var(--font);
+    color: var(--h1-color);
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+
+}
+
+
+#supervisior img {
+    width: 70px;
+    height: 70px;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+
+#calculator {
+    width: 265px;
+    height: 200px;
+    background-color: var(--bx-color);
+    box-shadow: 0 2px 10px 0 var(--h1-color);
+    border-radius: 5px;
+    border-top: 5px solid var(--bx3-br-color);
+    padding: 1.5rem;
+}
+
+
+#calculator h5 {
+    font-size: 1.1rem;
+    font-family: var(--font);
+    color: var(--h2-color);
+}
+
+#calculator p {
+    margin-top: .7rem;
+    font-family: var(--font);
+    color: var(--h1-color);
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+
+#calculator img {
+    width: 70px;
+    height: 70px;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+
+
+.karma-card {
+
+    display: grid;
+    justify-content: center;
+    margin-top: -7rem;
+
+}
+
+#karma {
+    width: 265px;
+    height: 200px;
+    background-color: var(--bx-color);
+    box-shadow: 0 2px 10px 0 var(--h1-color);
+    border-radius: 5px;
+    border-top: 5px solid var(--bx4-br-color);
+    padding: 1.5rem;
+}
+
+#karma h5 {
+    font-size: 1.1rem;
+    font-family: var(--font);
+    color: var(--h2-color);
+}
+
+#karma p {
+    margin-top: .8rem;
+    font-family: var(--font);
+    color: var(--h1-color);
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+
+#karma img {
+    width: 70px;
+    height: 70px;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+
+
+/*Breaks-point*/
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .text {
+        margin: auto;
+    }
+
+    .text h3{
+        font-size: 1.3rem;
+        
+    }
+    
+    .text h2{
+        font-size: 1.3rem;
+        
+    }
+    
+    .text p{
+        font-size: .9rem;
+        
+    }
+
+    .box {
+        display: grid;
+        row-gap: 2rem;
+        padding-left: 0rem;
+        grid-template-columns: auto;
+        column-gap: 0rem;
+
+    }
+
+    #supervisior {
+    margin-top: 9rem;
+    }
+    
+
+    #karma {
+        margin-top: 9rem;
+    }
+
+}

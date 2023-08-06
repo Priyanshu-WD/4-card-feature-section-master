@@ -228,6 +228,7 @@ main {
 
     .text {
         margin: auto;
+        width: 75%;
     }
 
     .text h3{
